@@ -14,7 +14,7 @@ app.get("/", function(req, res) {
 
 });
 
-app.post("/", function(req, res) {
+app.post("/result", function(req, res) {
     
     const query = req.body.cityName;
     const unit = "metric";
